@@ -22,3 +22,25 @@ body {
     min-height: 100vh;
     min-height: 100dvh;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem 2rem;
+}
+header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+header h1 {
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+header h1 span {
+    display: block;
+    font-weight: 600;
+}
+header p {
+    margin-top: 1rem;
+}
