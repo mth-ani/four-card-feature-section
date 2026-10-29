@@ -89,3 +89,15 @@ header p {
 .calculator-card {
     border-top: 0.25rem solid var(--clr-blue);
 }
+
+.attribution {
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 1rem;
+    font-weight: 400;
+    color: var(--clr-grey-400);
+}
+.attribution a {
+    color: var(--clr-blue);
+    text-decoration: none;
+}
