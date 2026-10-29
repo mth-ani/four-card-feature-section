@@ -19,4 +19,6 @@ body {
     line-height: 1.5;
     color: var(--clr-grey-500);
     background-color: var(--clr-br);
+    min-height: 100vh;
+    min-height: 100dvh;
 }
