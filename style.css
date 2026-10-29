@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --clr-red:hsl(0, 78%, 62%);
+    --clr-cyan:hsl(180, 62%, 55%);
+    --clr-orange:hsl(34, 97%, 64%);
+    --clr-blue:hsl(212, 86%, 64%);
+    --clr-grey-500:hsl(234, 12%, 34%);
+    --clr-grey-400:hsl(212, 6%, 44%);
+    --clr-white:hsl(0, 0%, 100%);
+    --clr-br:hsl(0, 0%, 98%);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: var(--clr-grey-500);
+    background-color: var(--clr-br);
+}
