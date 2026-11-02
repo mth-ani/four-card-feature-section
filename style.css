@@ -12,6 +12,7 @@
     --clr-grey-400:hsl(212, 6%, 44%);
     --clr-white:hsl(0, 0%, 100%);
     --clr-br:hsl(0, 0%, 98%);
+    --clr-shadow: hsla(212, 86%, 64%, 0.15);
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -35,7 +36,7 @@ header {
 }
 header h1 {
     font-weight: 200;
-    font-size: 1.4rem;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
 }
 header h1 span {
     display: block;
@@ -64,7 +65,7 @@ header p {
     background-color: var(--clr-white);
     border-radius: 0.3rem;
     padding: 2rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem var(--clr-shadow);
     display: flex;
     flex-direction: column;
     min-height: 15rem;
